@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <title>ULTIMATEPLAYCALCULATOR</title>
+</head>
+<body class="bg">
+    
+    <script src="./App.js"></script>
+    <div class = "container">
+    <div class = "title">Ultimate Play Calculator</div>
+    <div class="box">
+        <label >Tempo restante: </label><br>
+        <input type="text" id="valueT" class="txtArea" placeholder="Número de 1 a 24"><br>
+        <label>Quantidade de jogadores: </label><br>
+        <input type="text" id="valueQ" class="txtArea" placeholder="Número de 2 a 5"><br>
+        <label>Tempo de deslocamento: </label><br>
+        <input type="text" id="valueX" class="txtArea" placeholder="Número de 1 a Q-1"><br>
+        <input type="submit" value="Calcular" class="btnSubmit" onclick="UltimatePlayCalculator()">
+        <div class="result" id="sum"></div>
+    </div>
+</div>
+
+
+</body>
+</html>
