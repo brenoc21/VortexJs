@@ -22,6 +22,10 @@ textarea:focus, input:focus{
     margin-top: 1.2rem;
     cursor: pointer;
 }
+.ResultText{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
 
 .bg{
     background-image: url("kobe4.jpg");
